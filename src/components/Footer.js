@@ -10,48 +10,33 @@ const Footer = () => {
             <li className="nav-item">
               <Link
                 className="nav-link px-2 text-muted"
-                to={`/InformationSite/main`}
+                to={`/InformationSite`}
               >
                 Головна
               </Link>
             </li>
             <li className="nav-item">
-              <Link
-                className="nav-link px-2 text-muted"
-                to={`/InformationSite/aboutUs`}
-              >
+              <Link className="nav-link px-2 text-muted" to={`/aboutUs`}>
                 Про нас
               </Link>
             </li>
             <li className="nav-item">
-              <Link
-                className="nav-link px-2 text-muted"
-                to={`/InformationSite/news`}
-              >
+              <Link className="nav-link px-2 text-muted" to={`/news`}>
                 Новини
               </Link>
             </li>
             <li className="nav-item">
-              <Link
-                className="nav-link px-2 text-muted"
-                to={`/InformationSite/services`}
-              >
+              <Link className="nav-link px-2 text-muted" to={`/services`}>
                 Послуги
               </Link>
             </li>
             <li className="nav-item">
-              <Link
-                className="nav-link px-2 text-muted"
-                to={`/InformationSite/OurWork`}
-              >
+              <Link className="nav-link px-2 text-muted" to={`/OurWork`}>
                 Наші роботи
               </Link>
             </li>
             <li className="nav-item">
-              <Link
-                className="nav-link px-2 text-muted"
-                to={`/InformationSite/contacts`}
-              >
+              <Link className="nav-link px-2 text-muted" to={`/contacts`}>
                 Контакти
               </Link>
             </li>
