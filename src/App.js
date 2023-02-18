@@ -20,12 +20,24 @@ function App() {
               <Header />
               <>
                 <Routes>
-                  <Route path="/main" element={<Main />}></Route>
-                  <Route path="/aboutUs" element={<AboutUs />}></Route>
-                  <Route path="/news" element={<News />}></Route>
-                  <Route path="/services" element={<Services />}></Route>
-                  <Route path="/ourWork" element={<OurWork />}></Route>
-                  <Route path="/contacts" element={<Contacts />}></Route>
+                  <Route path="InformationSite/main" element={<Main />}></Route>
+                  <Route
+                    path="InformationSite/aboutUs"
+                    element={<AboutUs />}
+                  ></Route>
+                  <Route path="InformationSite/news" element={<News />}></Route>
+                  <Route
+                    path="InformationSite/services"
+                    element={<Services />}
+                  ></Route>
+                  <Route
+                    path="InformationSite/ourWork"
+                    element={<OurWork />}
+                  ></Route>
+                  <Route
+                    path="InformationSite/contacts"
+                    element={<Contacts />}
+                  ></Route>
                 </Routes>
               </>
 
