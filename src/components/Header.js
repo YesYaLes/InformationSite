@@ -32,32 +32,32 @@ const Header = () => {
         <nav className="nav1">
           <ul className="menu">
             <li className="header-item">
-              <Link to={`/main`} onClick={closeNav}>
+              <Link to={`/InformationSite/main`} onClick={closeNav}>
                 Головна
               </Link>
             </li>
             <li className="header-item">
-              <Link to={`/aboutUs`} onClick={closeNav}>
+              <Link to={`/InformationSite/aboutUs`} onClick={closeNav}>
                 Про нас
               </Link>
             </li>
             <li className="header-item">
-              <Link to={`/news`} onClick={closeNav}>
+              <Link to={`/InformationSite/news`} onClick={closeNav}>
                 Новини
               </Link>
             </li>
             <li className="header-item">
-              <Link to={`/services`} onClick={closeNav}>
+              <Link to={`/InformationSite/services`} onClick={closeNav}>
                 Послуги
               </Link>
             </li>
             <li className="header-item">
-              <Link to={`/OurWork`} onClick={closeNav}>
+              <Link to={`/InformationSite/OurWork`} onClick={closeNav}>
                 Наші роботи
               </Link>
             </li>
             <li className="header-item">
-              <Link to={`/contacts`} onClick={closeNav}>
+              <Link to={`/InformationSite/contacts`} onClick={closeNav}>
                 Контакти
               </Link>
             </li>

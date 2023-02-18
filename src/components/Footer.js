@@ -8,32 +8,50 @@ const Footer = () => {
         <footer className="py-3">
           <ul className="nav justify-content-center pb-3 mb-3">
             <li className="nav-item">
-              <Link className="nav-link px-2 text-muted" to={`/main`}>
+              <Link
+                className="nav-link px-2 text-muted"
+                to={`/InformationSite/main`}
+              >
                 Головна
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link px-2 text-muted" to={`/aboutUs`}>
+              <Link
+                className="nav-link px-2 text-muted"
+                to={`/InformationSite/aboutUs`}
+              >
                 Про нас
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link px-2 text-muted" to={`/news`}>
+              <Link
+                className="nav-link px-2 text-muted"
+                to={`/InformationSite/news`}
+              >
                 Новини
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link px-2 text-muted" to={`/services`}>
+              <Link
+                className="nav-link px-2 text-muted"
+                to={`/InformationSite/services`}
+              >
                 Послуги
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link px-2 text-muted" to={`/OurWork`}>
+              <Link
+                className="nav-link px-2 text-muted"
+                to={`/InformationSite/OurWork`}
+              >
                 Наші роботи
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link px-2 text-muted" to={`/contacts`}>
+              <Link
+                className="nav-link px-2 text-muted"
+                to={`/InformationSite/contacts`}
+              >
                 Контакти
               </Link>
             </li>
