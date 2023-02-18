@@ -1,0 +1,82 @@
+.Block1OurWork {
+  margin: 3em;
+  text-align: center;
+}
+.Block1OurWorkPhotosBlock {
+  margin: 3rem 5% 1.5rem 5%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.Block1OurWorkPhoto {
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  height: 15rem;
+  flex: 1 0 20rem;
+  max-width: 25rem;
+  transition: 0.3s;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+@media (max-width: 450px) {
+  .Block1OurWorkPhoto {
+    height: 10rem;
+    flex: 1 0 15rem;
+  }
+}
+.Block1OurWorkPhoto .Block1OurWorkContent {
+  margin-top: 5em;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.7s;
+}
+.Block1OurWorkPhoto:hover {
+  background-image: url("https://pimmedia.egger.com/l/decor/U788_9/s/Detail/f/881x513/8803438166046");
+  transition: 0.7s;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  opacity: 1;
+}
+.Block1OurWorkPhoto:hover .Block1OurWorkContent {
+  visibility: visible;
+  transition: 0.7s;
+  opacity: 1;
+}
+.Block1OurWorkContentExpand {
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.7s;
+  position: relative;
+  margin-right: 5%;
+  margin-left: auto;
+  margin-bottom: 5%;
+  margin-top: auto;
+}
+.Block1OurWorkPhoto:hover .Block1OurWorkContentExpand {
+  visibility: visible;
+  opacity: 1;
+  transition: 0.7s;
+}
+
+.Block1OurWorkPhoto1 {
+  background-image: url("https://www.simplilearn.com/ice9/free_resources_article_thumb/What_Is_a_Project.jpg");
+}
+.Block1OurWorkPhoto2 {
+  background-image: url("https://www.michiganstateuniversityonline.com/wp-content/uploads/sites/3/2014/03/build-teamwork-culture-41.jpg");
+}
+.Block1OurWorkPhoto3 {
+  background-image: url("https://www.incimages.com/uploaded_files/image/1920x1080/getty_927720230_371995.jpg");
+}
+.Block1OurWorkPhoto4 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVF5Hmz5aBhtGAvWTNfJj7S528NWLxTZ4eQA&usqp=CAU");
+}
+.Block1OurWorkPhoto5 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiazdOzqqz6noAfHw3OLyuYEjYz1paeyhhFg&usqp=CAU");
+}
+.Block1OurWorkPhoto6 {
+  background-image: url("https://successfulprojects.com.au/wp-content/uploads/2020/01/Project-Planning-min.png");
+}

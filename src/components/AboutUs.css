@@ -1,0 +1,93 @@
+.Block1AboutUs {
+  text-align: center;
+}
+.Block1AboutUsTopic {
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+}
+
+.Block1AboutUsTopicPhoto {
+  background-image: url("https://assets.entrepreneur.com/content/3x2/2000/20151215195453-business-leader-group-front-leadership-team-professionals-businesspeople.jpeg");
+  width: auto;
+  height: 600px;
+  background-position: center top;
+  background-size: cover;
+}
+
+.Block1AboutUsText {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  margin: 3em;
+}
+
+.Block2AboutUs {
+  padding: 3em;
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+  height: auto;
+  background-color: aliceblue;
+}
+.Block2AboutUsPerson {
+  padding: 1.5em;
+  gap: 2em;
+  justify-content: space-evenly;
+  display: flex;
+  align-items: center;
+  height: auto;
+  width: 60%;
+  background-color: rgb(240, 240, 240);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+@media (max-width: 450px) {
+  .Block1AboutUsTopicPhoto {
+    height: 200px;
+  }
+  .Block2AboutUsPerson {
+    padding: 0.7em;
+  }
+  .Block2AboutUs {
+    padding: 1.5em;
+  }
+}
+.Block2AboutUsPersonImg {
+  width: 40%;
+  object-fit: contain;
+  aspect-ratio: 3/2;
+}
+
+.Block2AboutUsRight {
+  text-align: right;
+  flex-direction: row-reverse;
+  margin-left: auto;
+  margin-right: 5%;
+}
+.Block2AboutUsLeft {
+  margin-left: 5%;
+  margin-right: auto;
+  flex-direction: row;
+}
+@media (max-width: 900px) {
+  .Block2AboutUsPerson {
+    flex-direction: column;
+  }
+  .Block2AboutUsPersonImg {
+    width: 100%;
+  }
+  .Block2AboutUsText {
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .Block2AboutUsPerson {
+    width: 100%;
+  }
+  .Block2AboutUsRight {
+    margin-right: 0;
+  }
+  .Block2AboutUsLeft {
+    margin-left: 0;
+  }
+}

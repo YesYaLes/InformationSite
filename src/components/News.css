@@ -1,0 +1,20 @@
+.News {
+  text-align: center;
+}
+.Block1NewsFilters {
+  height: 100px;
+  background-color: rgb(231, 231, 231);
+}
+.Block1NewsNewsBlock {
+  gap: 1em;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 3em;
+}
+@media (max-width: 450px) {
+  .Block1NewsNewsBlock {
+    margin-right: 1em;
+    margin-left: 1em;
+  }
+}
