@@ -32,34 +32,22 @@ const Header = () => {
         <nav className="nav1">
           <ul className="menu">
             <li className="header-item">
-              <Link to={`/InformationSite`} onClick={closeNav}>
-                Головна
-              </Link>
+              <Link to={`/InformationSite`}>Головна</Link>
             </li>
             <li className="header-item">
-              <Link to={`/aboutUs`} onClick={closeNav}>
-                Про нас
-              </Link>
+              <Link to={`/aboutUs`}>Про нас</Link>
             </li>
             <li className="header-item">
-              <Link to={`/news`} onClick={closeNav}>
-                Новини
-              </Link>
+              <Link to={`/news`}>Новини</Link>
             </li>
             <li className="header-item">
-              <Link to={`/services`} onClick={closeNav}>
-                Послуги
-              </Link>
+              <Link to={`/services`}>Послуги</Link>
             </li>
             <li className="header-item">
-              <Link to={`/OurWork`} onClick={closeNav}>
-                Наші роботи
-              </Link>
+              <Link to={`/OurWork`}>Наші роботи</Link>
             </li>
             <li className="header-item">
-              <Link to={`/contacts`} onClick={closeNav}>
-                Контакти
-              </Link>
+              <Link to={`/contacts`}>Контакти</Link>
             </li>
           </ul>
         </nav>
