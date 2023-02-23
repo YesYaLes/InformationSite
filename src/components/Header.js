@@ -8,10 +8,7 @@ const Header = () => {
       ? (document.body.style.overflowY = "auto")
       : (document.body.style.overflowY = "hidden");
   };
-  const closeNav = () => {
-    setTimeout(() => {}, 500);
-    checkEl.checked = false;
-  };
+  const closeNav = (event) => {};
   return (
     <>
       <header className="header">
@@ -32,22 +29,34 @@ const Header = () => {
         <nav className="nav1">
           <ul className="menu">
             <li className="header-item">
-              <Link to={`/InformationSite`}>Головна</Link>
+              <Link to={`/InformationSite`} onClick={closeNav}>
+                Головна
+              </Link>
             </li>
             <li className="header-item">
-              <Link to={`/aboutUs`}>Про нас</Link>
+              <Link to={`/aboutUs`} onClick={closeNav}>
+                Про нас
+              </Link>
             </li>
             <li className="header-item">
-              <Link to={`/news`}>Новини</Link>
+              <Link to={`/news`} onClick={closeNav}>
+                Новини
+              </Link>
             </li>
             <li className="header-item">
-              <Link to={`/services`}>Послуги</Link>
+              <Link to={`/services`} onClick={closeNav}>
+                Послуги
+              </Link>
             </li>
             <li className="header-item">
-              <Link to={`/OurWork`}>Наші роботи</Link>
+              <Link to={`/OurWork`} onClick={closeNav}>
+                Наші роботи
+              </Link>
             </li>
             <li className="header-item">
-              <Link to={`/contacts`}>Контакти</Link>
+              <Link to={`/contacts`} onClick={closeNav}>
+                Контакти
+              </Link>
             </li>
           </ul>
         </nav>

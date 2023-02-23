@@ -5,7 +5,11 @@ const Services = () => {
   return (
     <>
       <div className="Services">
-        <div className="Block1Services">
+        <div
+          className="Block1Services"
+          data-aos="fade-in"
+          data-aos-duration="1000"
+        >
           <h1>Some Topic</h1>
           <article>
             Contrary to popular belief, Lorem Ipsum is not simply random text.
@@ -18,7 +22,11 @@ const Services = () => {
             BC, making it over 2000 years old.
           </article>
         </div>
-        <div className="Block2Services">
+        <div
+          className="Block2Services"
+          data-aos="fade-in"
+          data-aos-duration="1000"
+        >
           <div className="Block2ServicesBox1 Block2ServicesBox">
             <div className="Block2ServicesBoxContent">
               <h2>Some Service</h2>

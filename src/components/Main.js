@@ -108,7 +108,7 @@ const Main = () => {
           </button>
         </div>
 
-        <div className="Block2">
+        <div className="Block2" data-aos="fade-in" data-aos-duration="1000">
           <div className="TextBlock">
             <h1 className="TextBlockTopic">About Company</h1>
             <label>
@@ -124,8 +124,8 @@ const Main = () => {
               Lorem Ipsum.
             </label>
           </div>
-          <div className="IconsBlock wow bounceInUp">
-            <div className="IconsItem">
+          <div className="IconsBlock ">
+            <div className="IconsItem ">
               <label className="Icon">
                 <>&#x210D;</>
               </label>
@@ -224,9 +224,9 @@ const Main = () => {
           </div>
         </div>
 
-        <div className="Block3 ">
+        <div className="Block3 " data-aos="fade-in" data-aos-duration="1000">
           <h1>Our Projects</h1>
-          <div className="PhotosBlock">
+          <div className="PhotosBlock ">
             <div className="Photo1 Photo">
               <div className="Content">
                 <h4>Some Topic</h4>
@@ -266,7 +266,7 @@ const Main = () => {
           </div>
         </div>
 
-        <div className="Block4">
+        <div className="Block4" data-aos="fade-in" data-aos-duration="1000">
           <div className="Block4Text">
             <h1> Our Partners </h1>
             <label>Some Text</label>
@@ -295,7 +295,7 @@ const Main = () => {
           </div>
         </div>
 
-        <div className="Block5">
+        <div className="Block5" data-aos="fade-in" data-aos-duration="1000">
           <div className="Block5Text">
             <img
               className="PhoneImg"

@@ -8,6 +8,7 @@ import News from "./components/News";
 import Services from "./components/Services";
 import OurWork from "./components/OurWork";
 import Contacts from "./components/Contacts";
+import Blur from "./components/Blur";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           path="*"
           element={
             <>
+              <Blur />
               <Header />
               <>
                 <Routes>
