@@ -9,8 +9,19 @@
   margin-bottom: 5%;
   margin-top: auto;
 }
-.Block1OurWorkContentExpand:hover {
-  width: 9%;
+@media (max-width: 900px) {
+  .Block1OurWorkPhoto:hover .Block1OurWorkContentExpand {
+    visibility: hidden;
+    opacity: 1;
+    transition: 0.7s;
+  }
+}
+@media (min-width: 901px) {
+  .Block1OurWorkPhoto:hover .Block1OurWorkContentExpand {
+    visibility: visible;
+    opacity: 1;
+    transition: 0.7s;
+  }
 }
 .Block1OurWorkContentCloseActive {
   background-color: silver;
@@ -44,7 +55,6 @@
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
     rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
-
 @media (max-width: 450px) {
   .Block1OurWorkPhoto {
     height: 10rem;
@@ -67,22 +77,31 @@
   opacity: 1;
 }
 .Block1OurWorkPhoto:hover .Block1OurWorkContent {
-  background-color: silver;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
   visibility: visible;
   transition: 0.7s;
   opacity: 1;
 }
 
-.Block1OurWorkPhoto:hover .Block1OurWorkContentExpand {
-  visibility: visible;
-  opacity: 1;
-  transition: 0.7s;
-}
 .Block1OurWorkPhotoExpand {
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  height: 15rem;
+  flex: 1 0 20rem;
+  max-width: 25rem;
   transition: 1s;
   position: fixed;
   top: 40%;
   margin: auto;
   width: 100%;
   transform: scale(2);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.Block1OurWorkPhotoExpand .Block1OurWorkContent {
+  visibility: hidden;
 }

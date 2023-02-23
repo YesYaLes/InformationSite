@@ -9,6 +9,7 @@ const OurWorkSinglePhoto = (props) => {
       .children.item(0).style.display = "block";
 
     event.target.parentElement.style.zIndex = "5";
+    event.target.parentElement.classList.remove("Block1OurWorkPhoto");
     event.target.parentElement.classList.add("Block1OurWorkPhotoExpand");
     event.target.parentElement.children.item(0).className =
       "Block1OurWorkContentCloseActive";
@@ -22,6 +23,7 @@ const OurWorkSinglePhoto = (props) => {
 
     event.target.parentElement.style.zIndex = "0";
     event.target.parentElement.classList.remove("Block1OurWorkPhotoExpand");
+    event.target.parentElement.classList.add("Block1OurWorkPhoto");
     event.target.parentElement.children.item(0).className =
       "Block1OurWorkContentClose";
     event.target.parentElement.children.item(2).style.visibility = "visible";
@@ -37,8 +39,6 @@ const OurWorkSinglePhoto = (props) => {
       <div
         className="Block1OurWorkPhoto"
         style={{ backgroundImage: `url("${props.photoUrl}")` }}
-        // onMouseEnter={ChangeBack}
-        // onMouseLeave={ReturnBack}
       >
         <button className="Block1OurWorkContentClose" onClick={Close}>
           X

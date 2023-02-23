@@ -1,0 +1,70 @@
+.Block1Contacts {
+  display: flex;
+  justify-content: space-between;
+  margin: 3em;
+}
+@media (max-width: 1350px) {
+  .Block1ContactsMap {
+    padding: 1em;
+    width: 50vw;
+    height: 60vh;
+  }
+}
+@media (max-width: 1050px) {
+  .Block1Contacts {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+  }
+  .Block1ContactsMap {
+    padding: 1em;
+    width: 85vw;
+    height: 60vh;
+  }
+}
+@media (max-width: 550px) {
+  .Block1ContactsMap {
+    padding: 1em;
+    width: 85vw;
+    height: 30vh;
+  }
+  .Block1ContactsContent {
+    font-size: 20px;
+  }
+}
+@media (max-width: 300px) {
+  .Block1ContactsContent {
+    font-size: 15px;
+  }
+}
+@media (min-width: 551px) {
+  .Block1ContactsContent {
+    font-size: 30px;
+  }
+}
+@media (min-width: 1351px) {
+  .Block1ContactsMap {
+    padding: 1em;
+    width: 60vw;
+    height: 60vh;
+  }
+}
+.Block1ContactsContent {
+  margin-left: 2em;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.Block1ContactsMapBlock {
+  background-color: rgb(231, 231, 231);
+}
+.Block1ContactsInfo {
+  display: flex;
+  gap: 10px;
+}
+.Block1ContactsInfoImg {
+  width: 1.5em;
+  aspect-ratio: 3/2;
+}
