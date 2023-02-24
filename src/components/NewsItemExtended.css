@@ -1,0 +1,25 @@
+.NewsItemExtended {
+  margin: 3em;
+  text-align: center;
+}
+.NewsItemExtendedPhoto {
+  margin-right: auto;
+  width: 60%;
+  padding-bottom: 2em;
+}
+@media (max-width: 450px) {
+  .NewsItemExtended {
+    margin: 1.5em;
+  }
+  .NewsItemExtendedPhoto {
+    width: 100%;
+  }
+}
+@media (min-width: 451px) and (max-width: 800px) {
+  .NewsItemExtended {
+    margin: 2em;
+  }
+  .NewsItemExtendedPhoto {
+    width: 90%;
+  }
+}
